@@ -1,0 +1,40 @@
+### 数据结构部分：
+1. **数组与字符串**：【必做】
+   - LeetCode 344. Reverse String（简单） - 字符串反转  //已完成
+   - LeetCode 567. Permutation in String（中等） - 字符串排列 //已完成
+2. **链表**：【必做】
+   - LeetCode 206. Reverse Linked List（简单） - 链表反转//已完成
+   - LeetCode 83. Remove Duplicates from Sorted List（简单） - 从有序链表中删除重复元素//已完成
+   - LeetCode 141. Linked List Cycle（简单） - 检测链表中的循环//已完成
+3. **栈与队列**：【必做】
+   - LeetCode 155. Min Stack（简单） - 最小栈//已完成
+   - LeetCode 232. Implement Queue using Stacks（简单） - 使用栈实现队列//已完成
+   - LeetCode 225. Implement Stack using Queues 或 LeetCode 232. Implement Queue using Stacks（简单） - 使用队列实现栈//已完成
+4. **树与二叉树**：【必做】
+   - LeetCode 144. Binary Tree Preorder Traversal、LeetCode 94. Binary Tree Inorder Traversal、LeetCode 145. Binary Tree Postorder Traversal（简单） - 二叉树前序、中序、后序遍历//已完成
+   - LeetCode 701. Insert into a Binary Search Tree、LeetCode 450. Delete Node in a BST、LeetCode 700. Search in a Binary Search Tree（中等） - 二叉搜索树的插入、删除、搜索操作//已完成
+   - LeetCode 104. Maximum Depth of Binary Tree（简单） - 二叉树的最大深度//已完成
+5. **图**：【选做】
+   - LeetCode 200. Number of Islands、LeetCode 130. Surrounded Regions、LeetCode 207. Course Schedule（中等） - 岛屿数量、被围绕的区域、课程安排//已完成
+   - LeetCode 785. Is Graph Bipartite?（中等） - 判断二分图//已完成
+   - LeetCode 207. Course Schedule、LeetCode 210. Course Schedule II（中等） - 课程安排及其拓扑排序//完成
+
+### 算法部分：
+1. **排序算法**：【必做】
+   - LeetCode 912. Sort an Array（中等） - 数组排序//完成
+2. **搜索算法**：【必做】
+   - LeetCode 704. Binary Search（简单） - 二分查找//完成
+3. **动态规划**：【必做，做一个即可，其余选做】
+   - LeetCode 70. Climbing Stairs、LeetCode 509. Fibonacci Number（简单） - 爬楼梯、斐波那契数列//完成
+   - LeetCode t贪心. Longest Increasing Subsequence（中等） - 最长递增子序列//完成
+4. **贪心算法**：【选做】
+   - LeetCode 455. Assign Cookies（简单） - 分配饼干//完成
+   - LeetCode 435. Non-overlapping Intervals、LeetCode 452. Minimum Number of Arrows to Burst Balloons（中等） - 无重叠区间、最少数量的箭引爆气球
+5. **回溯算法**：【选做】
+   - LeetCode 51. N-Queens（困难） - N 皇后问题
+   - LeetCode 416. Partition Equal Subset Sum、LeetCode 494. Target Sum（中等） - 分割等和子集、目标和
+
+### 其他：
+1. **位运算**：【必做】
+   - LeetCode 191. Number of 1 Bits（简单） - 1 的位数
+   - LeetCode 371. Sum of Two Integers（简单） - 两整数之和

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatisplus.mapper.ManhuashujuMapper">
+
+    <resultMap id="BaseResultMap" type="com.mybatisplus.entity.Manhuashuju">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="addtime" column="addtime" jdbcType="TIMESTAMP"/>
+            <result property="laiyuan" column="laiyuan" jdbcType="VARCHAR"/>
+            <result property="biaoti" column="biaoti" jdbcType="VARCHAR"/>
+            <result property="renqi" column="renqi" jdbcType="INTEGER"/>
+            <result property="dianji" column="dianji" jdbcType="INTEGER"/>
+            <result property="dingyue" column="dingyue" jdbcType="INTEGER"/>
+            <result property="tucao" column="tucao" jdbcType="INTEGER"/>
+            <result property="zuozhe" column="zuozhe" jdbcType="VARCHAR"/>
+            <result property="zhuangtai" column="zhuangtai" jdbcType="VARCHAR"/>
+            <result property="leibie" column="leibie" jdbcType="VARCHAR"/>
+            <result property="leixing" column="leixing" jdbcType="VARCHAR"/>
+            <result property="fengmian" column="fengmian" jdbcType="VARCHAR"/>
+            <result property="jieshao" column="jieshao" jdbcType="VARCHAR"/>
+            <result property="clicktime" column="clicktime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,addtime,laiyuan,
+        biaoti,renqi,dianji,
+        dingyue,tucao,zuozhe,
+        zhuangtai,leibie,leixing,
+        fengmian,jieshao,clicktime
+    </sql>
+</mapper>
