@@ -16,8 +16,6 @@ import java.util.List;
 public class Circularlinkedlist {
     //暴力，性能不行
 
-    //hello
-
     public static boolean hasCycle(ListNode head) {//暴力解法
         //1 获取链表中最后一个节点
         ListNode current = head;
