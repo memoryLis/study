@@ -31,10 +31,10 @@
    - LeetCode 455. Assign Cookies（简单） - 分配饼干//完成
    - LeetCode 435. Non-overlapping Intervals、LeetCode 452. Minimum Number of Arrows to Burst Balloons（中等） - 无重叠区间、最少数量的箭引爆气球
 5. **回溯算法**：【选做】
-   - LeetCode 51. N-Queens（困难） - N 皇后问题
-   - LeetCode 416. Partition Equal Subset Sum、LeetCode 494. Target Sum（中等） - 分割等和子集、目标和
+   - LeetCode 51. N-Queens（困难） - N 皇后问题//完成
+   - LeetCode 416. Partition Equal Subset Sum、LeetCode 494. Target Sum（中等） - 分割等和子集、目标和//完成
 
 ### 其他：
 1. **位运算**：【必做】
-   - LeetCode 191. Number of 1 Bits（简单） - 1 的位数
-   - LeetCode 371. Sum of Two Integers（简单） - 两整数之和
+   - LeetCode 191. Number of 1 Bits（简单） - 1 的位数//完成
+   - LeetCode 371. Sum of Two Integers（简单） - 两整数之和//完成

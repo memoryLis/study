@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j(topic = "test1")
 public class Test1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         log.debug("hello world ");
         Thread thread1 = new Thread(() -> {
             System.out.println("thread t1");
@@ -26,11 +26,11 @@ public class Test1 {
             public void run() {
                 System.out.println("thread t2");
                 log.debug("hello world ");
-
             }
 
         };
-        thread2.start();
+        thread2.join();
+
     }
 
 
