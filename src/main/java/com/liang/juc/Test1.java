@@ -1,6 +1,10 @@
 package com.liang.juc;
 
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Test;
+
+import java.util.Objects;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * ClassName: Test1
@@ -30,6 +34,17 @@ public class Test1 {
 
         };
         thread2.join();
+
+    }
+    static int result = 0;
+    @Test
+    public void test1() throws InterruptedException {
+        ConcurrentHashMap<String, Object> stringStringConcurrentHashMap = new ConcurrentHashMap<>();
+        String s = (String) stringStringConcurrentHashMap.computeIfAbsent("1", k -> "1");
+        System.out.println(s);
+        String s1 = (String)stringStringConcurrentHashMap.computeIfAbsent("1", k -> "1");
+        stringStringConcurrentHashMap.put("1", "afsdaf");
+        System.out.println(stringStringConcurrentHashMap.get("1"));
 
     }
 

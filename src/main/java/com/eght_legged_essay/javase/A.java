@@ -10,5 +10,10 @@ package com.eght_legged_essay.javase;
  * @Version jdk17.0
  */
 public interface A {
+    void method();
+    default void defaultMethod() {
+        System.out.println("这是默认方法");
+    }
+
 
 }

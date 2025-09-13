@@ -12,8 +12,9 @@ import lombok.Data;
  * @Version jdk17.0
  */
 @Data
-public class L814 {
+public class L814 implements Cloneable {
     public final int name1;
+
 
     String name;
 
@@ -31,5 +32,10 @@ public class L814 {
     }
     public String getName(){
         return name;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
