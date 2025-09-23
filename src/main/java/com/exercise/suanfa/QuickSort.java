@@ -1,5 +1,8 @@
 package com.exercise.suanfa;
 
+import java.util.ArrayList;
+import java.util.Stack;
+
 /**
  * ClassName: QuickSort
  * Package: com.exercise.sort
@@ -84,6 +87,7 @@ public class QuickSort {
         for (int num : nums) {
             System.out.println(num);
         }
+
     }
 
 }
